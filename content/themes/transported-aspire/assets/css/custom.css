@@ -1,0 +1,179 @@
+.c-content,
+.u-font-serif {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+body,
+a.c-nav__link {
+    color: #333;
+}
+
+::-moz-selection {
+    background: #00ADEE;
+}
+
+::selection {
+    background: #00ADEE;
+}
+
+a,
+.c-content a:not(.c-btn) {
+  color: #1FBAAE;
+  text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover,
+.c-nav__link:active,
+.c-nav__link:focus,
+.c-nav__link:hover,
+.c-post-card:active .c-post-card__link,
+.c-post-card:focus .c-post-card__link,
+.c-post-card:hover .c-post-card__link,
+.c-post-card-recent:active .c-post-card-recent__link,
+.c-post-card-recent:focus .c-post-card-recent__link,
+.c-post-card-recent:hover .c-post-card-recent__link,
+.c-pagination:active,
+.c-pagination:focus,
+.c-pagination:hover,
+.c-search-result__title:active,
+.c-search-result__title:focus,
+.c-search-result__title:hover,
+.c-content a:not(.c-btn):active,
+.c-content a:not(.c-btn):focus,
+.c-content a:not(.c-btn):hover,
+.c-tags a {
+    color: #00A69C;
+    text-decoration: none;
+}
+
+hr,
+pre,
+textarea,
+.c-archive,
+.c-post-card__image,
+.c-post-card-recent__image,
+.c-post-hero,
+.c-share__link:active,
+.c-share__link:focus,
+.c-share__link:hover,
+.c-author,
+.c-tags a,
+.c-tag-card,
+.c-subscribe,
+.c-widget-social__link:active,
+.c-widget-social__link:focus,
+.c-widget-social__link:hover,
+.c-footer {
+    background-color: #F0F0F0;
+}
+
+.c-header,
+.page-tags .c-header,
+.c-search-result__head,
+.c-search-result__item {
+    border-bottom-color: #F0F0F0;
+}
+
+.c-header .c-nav__item {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.c-header a.c-nav__link.c-nav__link--current {
+    color: #1FC3F3 !important;
+    border-bottom: 1px solid #1FC3F3;
+}
+
+.c-post-card__author,
+.c-post-card__date,
+.c-post-card:active .c-post-card__title,
+.c-post-card:focus .c-post-card__title,
+.c-post-card:hover .c-post-card__title,
+.c-post-card-recent__author,
+.c-post-card-recent:active .c-post-card-recent__title,
+.c-post-card-recent:focus .c-post-card-recent__title,
+.c-post-card-recent:hover .c-post-card-recent__title,
+.c-post__date,
+.c-search-result__date,
+.c-search-result__head,
+.c-search-result__item {
+    color: #CCC;
+}
+
+.c-btn {
+  background-color: #1FBAAE;
+}
+
+.c-btn:active,
+.c-btn:focus,
+.c-btn:hover {
+    background-color: #00A69C;
+}
+
+.c-widget-social__icon {
+    fill: #999;
+}
+
+.c-social-nav__icon:active,
+.c-social-nav__icon:focus,
+.c-social-nav__icon:hover,
+.c-widget-social__icon:active,
+.c-widget-social__icon:focus,
+.c-widget-social__icon:hover {
+    fill: #00A69C;
+}
+
+.c-footer {
+  border-top-color: #CCC;
+  color: #999;
+}
+
+.c-nav__link a,
+.c-footer-list a {
+  color: #999;
+}
+
+.c-footer-list a:active,
+.c-footer-list a:focus,
+.c-footer-list a:hover {
+    color: #555;
+}
+
+.c-social-nav__icon,
+.c-footer-list a:active .icon,
+.c-footer-list a:focus .icon,
+.c-footer-list a:hover .icon {
+    fill: #555;
+}
+
+.c-footer-list .icon {
+    fill: #999;
+}
+
+.c-post-card--first .c-post-card__link {
+  color: #fff;
+}
+
+.c-post-card--first .c-post-card__image {
+  outline: none;
+}
+
+figure {
+  margin-top: 1em;
+}
+
+figcaption {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    color: #555;
+    outline: 0;
+    z-index: 300;
+    text-align: left;
+    padding: 0.8em 0 1em 0;
+}
